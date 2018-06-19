@@ -5,21 +5,24 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "npm test"
+    "test": "npm test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "elasticsearch": "8.x.x",
-    "hapi": "8.x.x",
+    "hapi": "13.4.0",
     "hoek-boom": "1.x.x",
-    "joi": "^6.9.1",
-    "elasticsearch": "8.x.x",
+    "joi": "^8.1.0",
     "node-uuid": "1.x.x",
     "node-geocoder": "3.x.x",
-    "to-title-case": "0.x.x"
+    "to-title-case": "0.x.x",
+    "snyk": "^1.83.0"
   },
   "engines": {
     "node": "0.10.x"
   },
   "author": "Homes.com",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
