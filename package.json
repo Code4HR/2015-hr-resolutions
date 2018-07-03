@@ -8,7 +8,7 @@
     "test": "npm test"
   },
   "dependencies": {
-    "elasticsearch": "8.x.x",
+    "elasticsearch": "12.0.0",
     "hapi": "8.x.x",
     "hoek-boom": "1.x.x",
     "joi": "^6.9.1",
