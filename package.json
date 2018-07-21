@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "elasticsearch": "8.x.x",
-    "hapi": "8.x.x",
+    "hapi": "17.0.0",
     "hoek-boom": "1.x.x",
     "joi": "^6.9.1",
     "elasticsearch": "8.x.x",
